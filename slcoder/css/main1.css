@@ -1,0 +1,63 @@
+.bgimage{
+	background-image: url("../images/SLCoder.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+}
+
+.icon{
+	max-width: 180px;
+	margin: 0 auto;
+	display: block;
+}
+
+.services section{
+	text-align: center;
+}
+
+.tute:hover{
+	background: #eee;
+}
+
+.text-col{
+	color: black;
+	font-family: Helvetica, Sans-serif;
+}
+
+
+/*got from another*/
+html,body{
+	margin: 0;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.site-footer{
+	background-color: #222;
+	/*display: table-row;*/
+	width: auto;
+	height: 5%;
+}
+
+.wrapper{
+	padding: 20px;
+	height: auto;
+}
+
+#post{
+	width: 400px;
+	height: 200px;
+	margin: 0;
+}
+
+@media(min-width: 800px){
+	h3.tuteH3{
+		margin-top: 0;
+		padding-top: 36px;
+	}
+	.services section.tuteAlign{
+		text-align: left;
+	}
+
+}
