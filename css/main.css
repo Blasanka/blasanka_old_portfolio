@@ -26,21 +26,77 @@ nav img {
 	background-color: #222;
 }
 
-.carousel-caption{
+
+.carousel-caption {
 	top: 50%;
 	transform: translateY(-50%);
 	text-transform: uppercase;
 }
 
-.btn{
+.carousel-caption img {
+	margin: 0 auto;
+}
+
+.btn {
 	font-size: 18px;
 	color: #000;
 	padding: 12px 22px;
 	border: 2px solid #555;
 }
 
+.container {
+	margin: 4% auto;
+}
+
+#icon {
+	max-width: 200px;
+	margin: 1px auto;
+}
+
+footer{
+	width: 100%;
+	background-color: #222;
+	color: #FFF;
+	padding: 3%;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.fa:hover{
+	color: #050505;
+	text-decoration: none;
+}
+
+.so {
+	top: 50%;
+	transform: translateY(50%);
+}
+
+@media (max-width: 900px) {
+	.fa {
+			font-size: 18px;
+			padding: 8px;
+	}
+	
+	.so {
+		margin-bottom: 15%;
+	}
+}
+
 @media (max-width: 600px) {
 	.carousel-caption{
 		display: none;
+	}
+
+	#icon {
+		max-width: 150px;
+	}
+
+	h2 {
+		font-size: 1.7em;
 	}
 }
