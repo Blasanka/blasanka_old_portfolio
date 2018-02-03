@@ -1,5 +1,8 @@
-html {
-	height:100%;
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
 }
 
 body {
@@ -8,6 +11,15 @@ body {
     font-size: 1.4rem;
     font-weight: 400;
 }
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+
 av img {
 	margin: 0;
 	padding: 0;
@@ -98,6 +110,10 @@ footer{
 	.so {
 		margin-bottom: 15%;
 	}
+	
+	.navbar-brand{
+		padding: 1% 8px 3px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -111,5 +127,13 @@ footer{
 
 	h2 {
 		font-size: 1.7em;
+	}
+}
+
+@media (max-width: 260px) {
+	
+	.navbar-brand{
+		padding: 4.9% 6px 3px;
+		font-size: 1.8rem;
 	}
 }
