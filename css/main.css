@@ -51,7 +51,6 @@ body {
 	background-color: #222;
 }
 
-
 .carousel-caption {
 	top: 50%;
 	transform: translateY(-50%);
@@ -100,6 +99,12 @@ footer{
 .so {
 	top: 50%;
 	transform: translateY(50%);
+}
+
+#web {
+	background: #594f31;
+	color: #fff;
+	font-family: sans-serif Helvetica;
 }
 
 @media (max-width: 900px) {
