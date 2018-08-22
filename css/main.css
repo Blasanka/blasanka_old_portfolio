@@ -159,6 +159,18 @@ footer{
 	
 	.navbar-brand{
 		padding: 4.9% 6px 3px;
-		font-size: 1.8rem;
+		font-size: 1.7rem;
+	}
+
+	.carousel-caption h1 {
+		font-size: 0.9em;
+	}
+
+	.carousel-caption h3 {
+		font-size: 0.8em;
+	}
+
+	.carousel-caption h4 {
+		font-size: 0.7em;
 	}
 }
