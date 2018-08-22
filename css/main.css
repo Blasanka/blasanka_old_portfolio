@@ -57,6 +57,10 @@ body {
 	text-transform: uppercase;
 }
 
+.carousel-caption h3 {
+	text-transform: lowercase;
+}
+
 .carousel-caption img {
 	margin: 0 auto;
 }
@@ -123,7 +127,23 @@ footer{
 
 @media (max-width: 600px) {
 	.carousel-caption{
-		display: none;
+		max-width: 100px;
+		left: 40%;
+		top: 30%;
+		transform: translateY(-50%);
+	}
+
+	.carousel-caption h1 {
+		font-size: 1.3em;
+	}
+
+	.carousel-caption h3 {
+		margin-top: -8px;
+		font-size: 1.1em;
+	}
+
+	.carousel-caption h4 {
+		font-size: 0.8em;
 	}
 
 	#icon {
