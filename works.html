@@ -15,41 +15,34 @@
 			gtag('config', 'UA-129277090-1');
 		</script>
 		
-
 		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
 		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" /> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link type="text/css" rel="stylesheet" href="css/main.css" />
-
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 	<body>
 	<div class="wrapper">
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle"
-					data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a style="color: #fff" class="navbar-brand" href="index.html">Blasa's Portfolio</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li  id="home" class="active"><a href="index.html">Home</a></li>
-						<li id="about"><a href="aboutme.html">About</a></li>
-						<li id="works"><a href="works.html">Works</a></li>
-						<li id="contact"><a href="contacts.html">Contact</a></li>
-					</ul>
-				</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="index.html">Blasa's Portfolio</a>
+			<button type="button" class="navbar-toggler"
+				data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="navbar-nav">
+					<li  id="home" class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li id="about" class="nav-item"><a class="nav-link" href="aboutme.html">About</a></li>
+					<li id="works" class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
+					<li id="contact" class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
+				</ul>
 			</div>
 		</nav>
-			<div class="notice">
-				<center>If you are visiting this site from a mobile device <span id="web">blasanka.tk</span> url may not work properly.
-				 So please <a href="https://blasanka.github.io/works.html">click here</a>.</center>
-			</div>
+		<div class="notice">
+			<center>If you are visiting this site from a mobile device <span id="web">blasanka.tk</span> url may not work properly.
+				So please <a href="https://blasanka.github.io/works.html">click here</a>.</center>
+		</div>
 			
 		<div class="container text-center">
 			<div class="notice">
@@ -58,32 +51,67 @@
 			<h3>Desktop Application Works</h3>
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="img/vehiclerent.png" id="icon" alt="">
-					<h4>Vehicle Rent System</h4>
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="img/vehiclerent.png" id="icon" alt="vehicle rent system">
+						<div class="card-body">
+							<h5>Vehicle Rent System</h5>
+							<p class="card-text">This is one of my completed project that I choosed to showcase, that because this is a completely build Java, Swing, MySQL desktop application for vehicle renting company to make their work, record data easy and also keeping track of rented vehicles</p>
+							<a href="https://github.com/blasanka/vehiclerentsystem" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="img/vehiclerent.png" id="icon" alt="">
-					<h4>Tools Rent System</h4>
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="img/vehiclerent.png" id="icon" alt="vehicle rent system">
+						<div class="card-body">
+							<h5>Tools Rent System</h5>
+							<p class="card-text">This is one of my completed project that I choosed to showcase, that because this is a completely build using C# Windows Application with MSSQL desktop application for tools renting company not only to record their works but also keeping track of rented tools</p>
+							<a href="https://github.com/blasanka/" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="img/vehiclerent.png" id="icon" alt="">
-					<h4>Computer Management System</h4>
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="img/vehiclerent.png" id="icon" alt="vehicle rent system">
+						<div class="card-body">
+							<h5>Computer Management System</h5>
+							<p class="card-text">This is a completed project that I choosed to showcase, built using Java, JavaFX with MySQL desktop application for a computer shop to automate their works rather than using books of papers</p>
+							<a href="https://github.com/blasanka/" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<hr>
 			<h3>Web Application Works</h3>
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="img/2017-07-28 (8).png" id="icon" alt="">
-					<h4>Vehicle Rent System</h4>
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="img/2017-07-28 (8).png" id="icon" alt="">
+						<div class="card-body">
+							<h5>Vehicle Rent System</h5>
+							<p class="card-text">This is one of my completed project that I choosed to showcase, that because this is developed as a web application for above desktop app.</p>
+							<a href="https://github.com/blasanka/" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="img/examineme.png" id="icon" alt="">
-					<h4>True Phrase(My published app for anyone)</h4>
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="img/examineme.png" id="icon" alt="">
+						<div class="card-body">
+							<h5>True Phrase(My published app for anyone)</h5>
+							<p class="card-text">True phrase is publicly available for any one to make their English statement correct, if has doubt</p>
+							<a href="https://github.com/blasanka/" class="btn btn-primary">Visit</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="img/limbcare web spplication blasanka freelance developmen laravel.png" id="icon" alt="limbcare web spplication blasanka freelance developmen laravel">
-					<h4>Limbcare PVT (LRD) 2y2s Project(Laravel)</h4>
+					<div class="card" style="width: 18rem;"><img src="img/limbcare web spplication blasanka freelance developmen laravel.png" id="icon" alt="limbcare web spplication blasanka freelance developmen laravel">
+						<div class="card-body">
+							<h5>Limbcare PVT (LRD) 2y2s Project(Laravel)</h5>
+							<p class="card-text">This is second year project that I have done with my colleagues using Laravel frameowrk with MySQL and other few packages</p>
+							<a href="https://github.com/blasanka/limbcare" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<hr>
@@ -135,7 +163,7 @@
 		</div>
 		
 		<!--foooter-->
-		<footer class="container-fluid text-center">
+		<footer class="footer container-fluid text-center">
 			<div class="row">
 				<div class="col-sm-4">
 					<h3>Contact Me</h3>
@@ -160,11 +188,14 @@
 				</div>
 			</div>
 		</footer>
-		</div>
+	</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     Include all compiled plugins (below), or include individual files as needed -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="js/script.js"></script>
 	</body>
 </html>
