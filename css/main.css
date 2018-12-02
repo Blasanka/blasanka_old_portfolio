@@ -92,7 +92,7 @@ footer{
 .fa {
 	padding: 15px;
 	font-size: 30px;
-	color: #FFF;
+	color: #FFF !important;
 }
 
 .fa:hover{
